@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="show">
+    <button onclick="load()">LOAD</button>
+    <button onclick="insert()">INSERT</button>
+    <div id="result"></div>
+</body>
+</html>
+<script>
+    var a;
+ function load(){
+   a =  document.getElementById('show').value;
+        console.log(a);
+ }
+ function insert(){
+     var e = a + "<br>"; 
+     result.innerHTML = a + result.innerHTML + "<br>";
+    
+ }
+</script>

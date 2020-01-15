@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootnew.css">
+   
+</head>
+<body>
+    <div class="container">
+      <div class="row m-3 mt-5 shadow-lg" style="background-color: #490343 !important;">
+        <div class="col-md-12 m-5">
+           <div class="input-group col-md-12">
+             <input type="text" class="form-control form-control sm" id="row1">
+             <button class="btn btn-success ml-1" onclick="show()">DISPLAY</button>
+           </div><br>
+          
+           <div class="input-group col-md-12">
+            <input type="text" class="form-control form-control sm" id="column2">
+            <button class="btn btn-danger ml-1">RESET</button>
+           </div>
+
+           <div class="dropdown mt-3 col-md-12">
+            <select class=" form-control" id="operation">
+              <option value=""  disabled selected>Choose your option</option>
+              <option class="btn btn-success" value="+" id="">ADD</option>
+              <option class="btn btn-success" value="-" id="">SUBTRACT</option>
+              <option class="btn btn-success" value="/" id="">DIVIDE</option>
+              <option class="btn btn-success" value="*" id="">Multiply</option>
+            </select>
+          </div>
+
+          
+        </div>
+      </div>
+
+      <div id="me" style="color: white;">
+        
+      </div>
+
+    </div>
+
+    
+   
+</body>
+<script src="multiply.js"></script>
+
+        </html>
